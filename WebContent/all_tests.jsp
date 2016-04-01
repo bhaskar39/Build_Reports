@@ -40,9 +40,16 @@
 
 </style>
 <body>
+<%
+JsonParser jp;
+JsonObject ob,ob1;
+String hostname = "http://52.49.174.229:8080";
+//String jobname="Server";
+String jobname= (String) request.getParameter("jobname");
+%>
 <center>
 <div style="background:#fff;width:80%;height:100%;box-shadow:0px 0px 5px #000;">
-<h2><img src="headshot.png" style="width:100px;height:100px"/>Deveoper Build Reports</h2>
+<h2><img src="headshot.png" style="width:100px;height:100px"/><%=jobname %> Build Reports</h2>
 <table cellspacing=0 class="table1">
 <tr>
 	<th># Build</th>
@@ -52,11 +59,7 @@
 	<th>Goto Test Report</th>
 </tr>
 <%
-JsonParser jp;
-JsonObject ob,ob1;
-String hostname = "http://52.49.174.229:8080";
-//String jobname="Server";
-String jobname= (String) request.getParameter("jobname");
+
 String pag = request.getParameter("pagn");
 String url1;
 try

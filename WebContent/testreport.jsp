@@ -90,4 +90,5 @@ JsonObject tests = (JsonObject) ob.getAsJsonArray("suites").get(0);
 		%>
 	</table>
 	&nbsp;
+	
 </center>

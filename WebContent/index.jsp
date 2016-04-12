@@ -41,9 +41,9 @@
 <center>
 <div id="iim"><img src="headshot.png"/></div>
 <div id="load_data">
-<div onclick="load_page('all_tests.jsp','first','Server')" style="background:#0505C6" class="display_block">Developer Env Reports</div>
+<div onclick="load_page('all_tests.jsp','first','JenkinsServer')" style="background:#0505C6" class="display_block">Developer Env Reports</div>
 <div onclick="load_page('all_tests.jsp','first','TestEnv')"  style="background:rgb(228, 36, 36);" class="display_block">Tester Env Reports</div>
-<div onclick="load_page('all_tests.jsp','first','PreprodEnv')"  style="background:#116B11;" class="display_block">Pre Prod Reports</div>
+<div onclick="load_page('all_tests.jsp','first','PreProdEnv')"  style="background:#116B11;" class="display_block">Pre Prod Reports</div>
 </div>
 </center>
 <div id ='fade_black'  style='display:none;position:fixed;top:0px;left:0px;width:100%;height:100%;background-color:rgba(16,16,16,0.6)  ;'>
